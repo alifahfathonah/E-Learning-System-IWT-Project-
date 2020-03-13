@@ -1,0 +1,50 @@
+body{
+  font-family: "Times New Roman", sans-serif;
+  border: 0;
+  margin: 0;
+}
+#head{
+  background-color: #1e90ff;
+  overflow: hidden;
+}
+#head h1{
+  color:white;
+  float: left;
+  position: relative;
+  left:45%;
+}
+#head button{
+  color: white;
+  border: 0;
+  padding: 10px 30px 10px 30px;
+  background-color: #0073e6;
+  float:right;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+#top h2{
+  margin-top: 150px;
+  color: white;
+  margin-left: 15%;
+}
+#about h2{
+  color: white;
+  margin-left: 15%;
+}
+#about p{
+  font-size: 1.5em;
+  margin-left: 15%;
+  color:white;
+}
+#about img{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: .8;
+  bottom: 0px;
+}
+#quat h1{
+  color: white;
+  font-size: 2.5em;
+  margin-left: 15%;
+}

@@ -1,0 +1,34 @@
+body{
+	background-image:url(img/bac1.jpg);
+	font-family:Fontin-Sans;
+}
+
+.sep{
+	width:95%;
+	height:auto;
+	margin:auto;
+	text-align:center;
+}
+
+.sep h1{
+	font-size:2.3vw;
+}
+
+table{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:20px;
+}
+
+th{
+	background-color:white;
+}
+tr:nth-child(even) {
+  background-color: #CCD1D1;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #95A5A6;
+}

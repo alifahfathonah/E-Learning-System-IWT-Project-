@@ -1,0 +1,98 @@
+.con{
+	float:left;
+	width:48%;
+	/*background-color:gray;*/
+	height:auto;
+	margin-left:0.5%;
+	margin-right:0.5%;
+}
+
+.con .add{
+	width:95%;
+	height:auto;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-top:10px;
+}
+
+.add{
+	border-style:ridge;
+}
+
+.add h2{
+		text-align:Center;
+		
+}
+
+.btnG{
+	margin-top:0px;
+	background-color: black;
+	width:12.4%;
+	height:auto;
+    color: white; 
+    float: left; 
+	border:0.1px solid gray;
+	text-align:center;
+}
+
+.btnG h3{
+	font-size:.8vw;
+}
+
+.btnG:hover{
+	background-color:#758A86;
+}
+
+.tip{
+	position: relative;
+    display:inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.btnG .tip{
+	visibility: hidden;
+    width: auto;
+    background-color: black;
+    color:white;
+    text-align: left;
+    border-radius:6px;
+    padding-right:10px;
+/* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.btnG:hover .tip{
+	visibility:visible;
+}
+
+.tip ul{
+	list-style:none;
+}
+
+.btnG .tip a{
+	color:white;
+	font-size:.8vw;
+}
+
+.tip ul li a:hover{
+	 transform: scale(1.5);
+}
+
+#up{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;	
+}
+
+#display ul{
+	margin-top:5px;
+}
+#displayr ul li:focus{
+	
+	background:lightgreen;
+}
+
+#candidate{
+	width:100%;
+	text-align:center;
+}

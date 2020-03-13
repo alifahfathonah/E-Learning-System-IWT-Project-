@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script>
+      function validate()
+      {
+        var email = document.forms["myForm"]["email"].value;
+        var password = document.forms["myForm"]["password"].value;
+
+        if( ck_all( email, "Email" ))
+          if( ck_all( password, "Password"))
+            return true;
+          else
+            return false;
+        else
+          return false;
+      }
+
+      function ck_all( value, field )
+      {
+        if( value == "" || value == "NULL" )
+        {
+          alert( field + " cannot be empty" );
+          return false;
+        }
+        else
+        {
+          return true;
+        }
+      }
+    </script>
+  </head>
+  <body class="" style="background-image:url('bin/33.jpg')">
+    <div class="container">
+      <div class="p-5 card" style="width:30%;position:absolute;top:40%;left:50%;transform:translate( -50%, -50% )">
+        <h1 class="card-title" style="text-align:center">Professor/Admin Login</h1>
+
+        <form action="system.php" method="POST" name="myForm" onsubmit="return validate()">
+          <div class="form-group">
+            <lable for="email">Email:</lable>
+            <input type="email" name="email" class="form-control" placeholder="Enter Email">
+          </div>
+          <div class="form-group">
+            <lable for="password">Password:</lable>
+            <input type="password" name="password" class="form-control" placeholder="Enter Password">
+          </div>
+          <button type="submit" name="login" class="btn btn-primary btn-lg" style="width:100%">Login</button>
+        </form>
+        <div>
+        <p style="float:left">Student?<a href="login.html">Click here</a></p>
+        <p><a href="reset.html" style="float:right">Forgot password?</a></p>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+body{
+  font-family: "Times New Roman", sans-serif;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 80%;
+  overflow:hidden;
+}
+#head{
+  background-color:  #1e90ff;
+
+}
+#head h1{
+  margin: auto;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+#head button{
+  color: white;
+  background-color: #1e90ff;
+  padding:5px 20px 5px 20px;
+  float: right;
+  border:0;
+  position: relative;
+  bottom: 20px;
+}
+#head button:hover{
+  background-color: #0073e6;
+}
+.box{
+  margin-left: 45%;
+  margin-top: 50px;
+  background-color:#808080;
+  padding: 0 0 100px 0;
+  height: 30%;
+  width: 40%;
+}
+.box:hover{
+  background-color: #1e90ff;
+  transition: 1s;
+}
+#list input{
+  width: 40%;
+  height: 30px;
+  margin: auto;
+  display: block;
+}
+#list button{
+  margin-left: 30%;
+  margin-top: 10px;
+  width: 40%;
+  height: 50px;
+  background-color: #0073e6;
+  border: 0;
+}
+#list h3{
+  color: white;
+}
+img{
+  z-index: -1;
+  opacity: .5;
+  position: absolute;
+}
+#button1 {
+  width: 50%;
+  background-color: #0073e6;
+  border: 0;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 10px;
+}
+#button2{
+  width: 49%;
+  background-color: #ff6600;
+  border: 0;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 10px;
+}
+#button2:hover{
+  background-color: #ff6600;
+}
+.box button h2{
+  color: white;
+}
+#button3{
+  width: 50%;
+  background-color: #ff6600;
+  border: 0;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 10px;
+}
+#button4{
+  width: 49%;
+  background-color: #0073e6;
+  border: 0;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 10px;
+}
+#list1 h3{
+  padding-left: 40px;
+  display: block;
+  color: white;
+}
+#list1 input{
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+  float: right;
+  width: 40%;
+  height: 30px;
+  border: none;
+  opacity: .8;
+}
+#list1 button{
+  margin-left: 10%;
+  width: 80%;
+  border:0;
+  background-color:  #0073e6;
+}
+#list1 button h3{
+  margin-right: 5%;
+}
+#list1 button:hover{
+  background-color: #ff6600;
+}
+#foot{
+  margin-left: 15%;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 350px;
+}
+#foot1{
+  margin-left: 15%;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}

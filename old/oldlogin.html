@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+  <header id="head">
+    <div class="container">
+      <h1>E-Learning</h1>
+      <button onclick="window.location.href='index.html' "type="button"><h3>HOME</h3></button>
+    </div>
+  </header>
+
+  <section id="log">
+    <div class="container">
+      <div class="image">
+        <img src="bin/Elearn.jpg" width="100%" height="100%" alt="">
+      </div>
+        <div class="box">
+            <button type="button" id="button1" onclick=""><h2>Login</h2></button>
+            <button type="button" id="button2" onclick="location.href='register.html'"><h2>Register</h2></button>
+          <div class="list" id="list">
+            <form action="verify.php" method="post">
+              <input type="email" placeholder="Email" name="email">
+              <input type="password" placeholder="Password" name="password">
+              <button type="submit" name="login"><h3>Login</h3></button>
+            </form>
+          </div>
+          <a href="reset.html" style="position: relative;left:40%;top:20%">Reset password</a>
+        </div>
+    </div>
+  </section>
+</body>
+</html>

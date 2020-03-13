@@ -1,0 +1,24 @@
+.bod{
+	margin:auto;
+	height:auto;
+	width:100%;
+}
+
+.bod .name{
+	margin:auto;
+	width:80%;
+	margin-top:30px;
+	font-size:2.5vw;
+	color:black;
+	padding-left:5%;
+	margin-bottom:10px;
+	text-align:left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color:gray;
+}
+
+.lec{
+	width:80%;
+	margin:auto;
+	padding-left:30%;
+}
